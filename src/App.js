@@ -23,7 +23,7 @@ import Footer from './Components/Footer/Footer';
 function App() {  
 
   return (
-    <BrowserRouter className="App" basename='/zoma-style'>
+    <BrowserRouter className="App" basename="/zoma-style" >
       <Navbar />
 
       <Switch>
