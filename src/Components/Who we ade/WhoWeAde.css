@@ -1,0 +1,92 @@
+
+/* start who we ade   */
+.history-info .img-history  {
+    margin-bottom: 50px;
+    position: relative;
+}
+.history-info .img-history  h2 {
+    color: rgb(160, 9, 9);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 40px;
+    font-weight: 800;
+}
+.history-info .img-history h2 + p {
+    color: #f00;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    font-size: 30px;
+
+}
+.history-info .img-history > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(22, 12, 12, 0.582);
+}
+
+/* start our office  */
+.history-info .history .hisiry-inf > h3 {
+    color: #F00;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: -8px -7px 10px rgb(158, 54, 54);
+}
+.history-info .container .history .info .our-office li {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.history-info .container .history .info .our-office li i {
+    color: #f00;
+    background-color: aliceblue;
+    margin-right: 15px;
+}
+
+.history-info .card {
+    margin: 29px 0;
+    box-shadow: 5px 8px 19px rgb(153, 49, 49);
+    border-radius: 10px;
+}
+.history-info .card  h5 {
+    color: #f00;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.history-info .card .card-text {
+    padding: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.history-info .my-core {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom   : 20px;
+    border-radius: 12px;
+    box-shadow: 8px 7px 12px rgb(160, 32, 32);
+    min-height: 350px;
+    background-color: rgba(250, 76, 76, 0.164) !important   ;
+
+}
+.history-info .my-core i {
+    color: #f00;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: 12px 50px 30px 5px;
+}
+
+.history-info .my-core h4 {
+    color: #f00;
+    margin-top: 20px;
+    font-size: 25px;
+}
