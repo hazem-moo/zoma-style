@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 import Index from './Components/Home/Index'
 import Navbar from './Components/Navbar/Navbar'
@@ -23,9 +23,8 @@ import Footer from './Components/Footer/Footer';
 function App() {  
 
   return (
-    <BrowserRouter className="App">
+    <BrowserRouter className="App" basename='/zoma-style'>
       <Navbar />
-      {/* <ScrollTop /> */}
 
       <Switch>
         <Route exact path="/" component={ Index } />
