@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/zoma-style/static/css/main.88a30849.chunk.css",
-    "main.js": "/zoma-style/static/js/main.3943ea4d.chunk.js",
-    "main.js.map": "/zoma-style/static/js/main.3943ea4d.chunk.js.map",
+    "main.css": "/zoma-style/static/css/main.4271c4ea.chunk.css",
+    "main.js": "/zoma-style/static/js/main.e69c6bdc.chunk.js",
+    "main.js.map": "/zoma-style/static/js/main.e69c6bdc.chunk.js.map",
     "runtime-main.js": "/zoma-style/static/js/runtime-main.8cebee0f.js",
     "runtime-main.js.map": "/zoma-style/static/js/runtime-main.8cebee0f.js.map",
     "static/css/2.b30984d7.chunk.css": "/zoma-style/static/css/2.b30984d7.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.abe712ef.chunk.js.map": "/zoma-style/static/js/3.abe712ef.chunk.js.map",
     "index.html": "/zoma-style/index.html",
     "static/css/2.b30984d7.chunk.css.map": "/zoma-style/static/css/2.b30984d7.chunk.css.map",
-    "static/css/main.88a30849.chunk.css.map": "/zoma-style/static/css/main.88a30849.chunk.css.map",
+    "static/css/main.4271c4ea.chunk.css.map": "/zoma-style/static/css/main.4271c4ea.chunk.css.map",
     "static/js/2.d7c1af35.chunk.js.LICENSE.txt": "/zoma-style/static/js/2.d7c1af35.chunk.js.LICENSE.txt",
     "static/media/Footer.css": "/zoma-style/static/media/010.03493501.jpg",
     "static/media/1.bda7973f.jpg": "/zoma-style/static/media/1.bda7973f.jpg",
@@ -36,7 +36,7 @@
     "static/js/runtime-main.8cebee0f.js",
     "static/css/2.b30984d7.chunk.css",
     "static/js/2.d7c1af35.chunk.js",
-    "static/css/main.88a30849.chunk.css",
-    "static/js/main.3943ea4d.chunk.js"
+    "static/css/main.4271c4ea.chunk.css",
+    "static/js/main.e69c6bdc.chunk.js"
   ]
 }
