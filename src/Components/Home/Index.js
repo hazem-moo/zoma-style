@@ -11,7 +11,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import './Home.css';
 
-import logo15  from '../images/15.jpg'
+import logo10  from '../images/10.jpg'
 import logo2 from '../images/2.jpg'
 import logo1 from '../images/1.jpg'
 import logo3 from '../images/3.jpg'
@@ -92,7 +92,7 @@ const Home = (props) => {
 
           <div className="col-lg-6 " >
             <div className='perspective-img' data-aos='fade-up'>
-              <img className="img-who-we-ade2" src={ logo15 } alt="" />
+              <img className="img-who-we-ade2" src={ logo10 } alt="" />
             </div>
           </div>
 
