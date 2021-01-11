@@ -63,8 +63,8 @@
     padding: 11px;
     color: #F00;
 }
- .who-we-ade2 .text-who [color="danger"] {
-     margin-bottom: 20px;
+ .who-we-ade2 .text-who > a {
+     margin-bottom: 30px;
  }
 
  @media (min-width : 768px) {

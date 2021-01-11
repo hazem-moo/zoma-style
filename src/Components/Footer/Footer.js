@@ -36,11 +36,11 @@ const Footer = () => {
                         <div className='information text-center' >
                             <h4> INFORMATION </h4>
                             <div className='containet'>
-                                <NavLink to='/WhoWeAde'> OUR history </NavLink>
-                                <NavLink to='/WhoWeAde2'> CORE VALUE </NavLink>
-                                <NavLink to="/Construction"> CONSTRUCTION </NavLink>
-                                <NavLink to="/Engineering"> ENGINEERNG </NavLink>
-                                <NavLink to="/Procurment"> PROCURMENT </NavLink>
+                                <NavLink to='/WhoWeAde' onClick={ () => window.scrollTo(0, 0) } > OUR history </NavLink>
+                             <NavLink onClick={ () => window.scrollTo(0, 0) } to='/WhoWeAd, 0e2'> CORE VALUE </NavLink>
+                                <NavLink onClick={ () => window.scrollTo(0, 0) } to="/Construction"> CONSTRUCTION </NavLink>
+                                <NavLink onClick={ () => window.scrollTo(0, 0) } to="/Engineering"> ENGINEERNG </NavLink>
+                                <NavLink onClick={ () => window.scrollTo(0, 0) } to="/Procurment"> PROCURMENT </NavLink>
                             </div>
                         </div>
                     </div>
