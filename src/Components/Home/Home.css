@@ -55,7 +55,7 @@
 
 .who-we-ade2 .text-who {
     box-shadow: 10px 10px 12px rgb(143, 29, 29);
-    max-height: 366px;
+    min-height: 366px;
     z-index: 3;
 }
 .who-we-ade2 .header-who-we-ade2 {

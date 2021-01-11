@@ -17,7 +17,7 @@ const MyNavbar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar className="my-nav" light expand="md">
+    <Navbar className="my-nav" light expand="md" id='nav'>
     <div className='container'>
 
     <NavbarBrand tag={ Link } to="/">

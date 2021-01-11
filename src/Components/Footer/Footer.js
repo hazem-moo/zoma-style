@@ -1,9 +1,10 @@
 import React from 'react'
 import './Footer.css'
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import { Button } from 'reactstrap'
 
 const Footer = () => {
+
     return (
         <footer className='footer'>
             <div className='overlay'></div> 
@@ -36,8 +37,7 @@ const Footer = () => {
                             <h4> INFORMATION </h4>
                             <div className='containet'>
                                 <NavLink to='/WhoWeAde'> OUR history </NavLink>
-                                <NavLink to='/WhoWeAde2'> CORE VALUES </NavLink>
-                                <NavLink to="/Construction"> CONSTRUCTION </NavLink>
+                                <NavLink to='/WhoWeAde2'> CORE VALUE </NavLink>
                                 <NavLink to="/Construction"> CONSTRUCTION </NavLink>
                                 <NavLink to="/Engineering"> ENGINEERNG </NavLink>
                                 <NavLink to="/Procurment"> PROCURMENT </NavLink>

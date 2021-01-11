@@ -17,6 +17,7 @@ import WhoWeAde2 from './Components/Who we ade/WhoWeAde2'
 import News from './Components/News/News'
 import Contact from './Components/Contact us/Contact'
 import Footer from './Components/Footer/Footer';
+import MyNavbar from './Components/Navbar/Navbar';
 
 // import ScrollTop from './Components/ScrollTop/ScrollTop'
 
@@ -29,6 +30,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ Index } />
 
+        <Route path='/MyNavbar' component={ MyNavbar } />
         <Route path='/ServicesLogo' component={ ServicesAndLogo } />
         <Route path='/Construction' component={ Construction } />
         <Route path='/Procurement' component={ Procurement } />
