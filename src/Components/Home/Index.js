@@ -90,7 +90,7 @@ const Home = (props) => {
       <section className="who-we-ade2 container text-center ">
         <div className='row '>
 
-          <div className="col-lg-6 " >
+          <div className="col-lg-6 oo" >
             <div className='perspective-img' data-aos='fade-up'>
               <img className="img-who-we-ade2" src={ logo10 } alt="" />
             </div>

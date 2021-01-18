@@ -25,6 +25,9 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.who-we-ade2 .oo {
+    margin: 0 0 50px 0;
+}
 .who-we-ade2 .row .perspective-img {
     /* overflow: hidden; */
     perspective: 500px;
@@ -32,25 +35,23 @@
 .who-we-ade2 .col-lg-6 .img-who-we-ade2 {
     animation: opacity-img 11s ease-in-out  10;
     transition: all 10s ease;
-    height: 366px;
+    min-height: 366px;
+    width: 75% ;
     box-shadow:5px 5px 11px #F00,
-     -5px -5px 11px #f00;
-     position: relative;
-    /* perspective-origin: 50%; */
+    -5px -5px 11px #f00;
+    position: relative;
 }
+ 
 @keyframes opacity-img {
     5% {
         transform: none;
     }
     10% {
-        transform: translateZ(-300px) skew(30deg);
+        transform: translateZ(-300px) rotateY( 360deg );
     }   
-    15% {
-        transform: translateZ(30px) skew(-30deg);
-    }
-    20% {
-        transform: rotateY(360deg) ;
-    }
+    /* 20% {
+        transform: translateZ(30px) ;
+    } */
 }
 
 .who-we-ade2 .text-who {
