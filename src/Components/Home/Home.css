@@ -57,12 +57,16 @@
 .who-we-ade2 .text-who {
     box-shadow: 10px 10px 12px rgb(143, 29, 29);
     min-height: 366px;
+    /* padding: 7px 15px; */
     z-index: 3;
 }
 .who-we-ade2 .header-who-we-ade2 {
     margin-top: 25px;
     padding: 11px;
     color: #F00;
+}
+.who-we-ade2 .text-who > P {
+    padding: 10px 30px;
 }
  .who-we-ade2 .text-who > a {
      margin-bottom: 30px;
