@@ -35,7 +35,7 @@
 .who-we-ade2 .col-lg-6 .img-who-we-ade2 {
     animation: opacity-img 11s ease-in-out  10;
     transition: all 10s ease;
-    min-height: 366px;
+    min-height: 400px;
     width: 300px ;
     box-shadow:5px 5px 11px #F00,
     -5px -5px 11px #f00;

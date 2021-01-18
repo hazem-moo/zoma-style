@@ -96,13 +96,15 @@ const Home = (props) => {
             </div>
           </div>
 
-          <div className="col-lg-6 text-who " data-aos='fade-up' >
-            <h3 className="header-who-we-ade2"> WHO WE ARE? </h3>
-            <h5 className="header-who-we-ade2"> TEMC (Topic Electro-Mechanical Contracting): </h5>
-            <p className="leed">
-              TEMC is a result of more than 15 years of experience in engineering, procurement, construction, facility management and highly specialized in all integrated engineering solutions, founded by MR Bahgat Abo gresha and his team of highly experienced managers. TEMC provides the market with the professional services needed for optimized EPC turnkey solution
-            </p>
-            <Button color="danger" tag={ NavLink } to="/WhoWeAde2" > READ MORE </Button>
+          <div className="col-lg-6 " data-aos='fade-up' >
+            <div className=' text-who ' >
+              <h3 className="header-who-we-ade2"> WHO WE ARE? </h3>
+              <h5 className="header-who-we-ade2"> TEMC (Topic Electro-Mechanical Contracting): </h5>
+              <p className="leed">
+                TEMC is a result of more than 15 years of experience in engineering, procurement, construction, facility management and highly specialized in all integrated engineering solutions, founded by MR Bahgat Abo gresha and his team of highly experienced managers. TEMC provides the market with the professional services needed for optimized EPC turnkey solution
+              </p>
+              <Button color="danger" tag={ NavLink } to="/WhoWeAde2" > READ MORE </Button>
+            </div>
           </div>
         </div>
       </section>
