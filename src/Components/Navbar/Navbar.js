@@ -47,7 +47,7 @@ const MyNavbar = (props) => {
               </NavItem>
             </DropdownItem>
               <NavItem>
-                  <NavLink tag={ MyNavLink } to="/Procurement"> PROCURMENT </NavLink>
+                  <NavLink tag={ MyNavLink } to="/Procurement"> PROCUREMENT </NavLink>
               </NavItem>
               <NavItem>
                   <NavLink tag={ MyNavLink } to="/Engineering"> ENGINEERING </NavLink>

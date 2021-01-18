@@ -40,7 +40,7 @@ const Footer = () => {
                              <NavLink onClick={ () => window.scrollTo(0, 0) } to='/WhoWeAd, 0e2'> CORE VALUE </NavLink>
                                 <NavLink onClick={ () => window.scrollTo(0, 0) } to="/Construction"> CONSTRUCTION </NavLink>
                                 <NavLink onClick={ () => window.scrollTo(0, 0) } to="/Engineering"> ENGINEERNG </NavLink>
-                                <NavLink onClick={ () => window.scrollTo(0, 0) } to="/Procurment"> PROCURMENT </NavLink>
+                                <NavLink onClick={ () => window.scrollTo(0, 0)} to="/Procurement"> PROCUREMENT </NavLink>
                             </div>
                         </div>
                     </div>
