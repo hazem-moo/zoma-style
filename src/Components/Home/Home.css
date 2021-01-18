@@ -36,7 +36,7 @@
     animation: opacity-img 11s ease-in-out  10;
     transition: all 10s ease;
     min-height: 366px;
-    width: 75% ;
+    width: 300px ;
     box-shadow:5px 5px 11px #F00,
     -5px -5px 11px #f00;
     position: relative;
