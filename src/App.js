@@ -25,8 +25,8 @@ function App() {
 
   return (
     <BrowserRouter className="App" basename="/zoma-style" >
-      <Navbar />
-
+    <Navbar />  
+    
       <Switch>
         <Route exact path="/" component={ Index } />
 
@@ -38,7 +38,7 @@ function App() {
 
         <Route path='/WhoWeAde' component={ WhoWeAde } />
         <Route path='/WhoWeAde2' component={ WhoWeAde2 } />
-
+        
         <Route path='/News' component={ News } />
         <Route path='/Contact' component={ Contact } />
       </Switch>

@@ -18,7 +18,6 @@ const MyNavbar = (props) => {
 
   return (
     <Navbar className="my-nav" light expand="md" id='nav'>
-    <div className='container'>
 
     <NavbarBrand tag={ Link } to="/">
       <span>zoma</span>
@@ -82,7 +81,6 @@ const MyNavbar = (props) => {
 
       </Nav>
     </Collapse>
-    </div>
     </Navbar>
   );
 }

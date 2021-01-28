@@ -8,7 +8,7 @@
 .slide .carousel-item .logo-slide {
     background-size: cover;
     max-height: 750px;
-    width: 100%;
+    width: 95% !important;
 }
 .carousel-control-next, .carousel-control-prev {
     opacity: 1;
@@ -25,40 +25,25 @@
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.who-we-ade2 .oo {
-    margin: 0 0 50px 0;
-}
-.who-we-ade2 .row .perspective-img {
-    /* overflow: hidden; */
-    perspective: 500px;
-}
+
 .who-we-ade2 .col-lg-6 .img-who-we-ade2 {
-    animation: opacity-img 11s ease-in-out  10;
-    transition: all 10s ease;
-    min-height: 400px;
-    width: 300px ;
-    box-shadow:5px 5px 11px #F00,
-    -5px -5px 11px #f00;
-    position: relative;
+    animation: opacity-img 11s ease-in-out  5 alternate !important;
+    transition: all 5s ease;
+    width: 100%;  
 }
- 
 @keyframes opacity-img {
     5% {
-        transform: none;
+        transform: none
     }
     10% {
-        transform: translateZ(-300px) rotateY( 360deg );
+        transform: rotateX( 360deg );
     }   
-    /* 20% {
-        transform: translateZ(30px) ;
-    } */
 }
-
 .who-we-ade2 .text-who {
-    box-shadow: 10px 10px 12px rgb(143, 29, 29);
+    box-shadow: 10px 10px 20px rgb(143, 29, 29);
     min-height: 366px;
-    /* padding: 7px 15px; */
-    z-index: 3;
+    padding: 7px 15px;
+    margin-bottom: 20px ;
 }
 .who-we-ade2 .header-who-we-ade2 {
     margin-top: 25px;
@@ -67,17 +52,8 @@
 }
 .who-we-ade2 .text-who > P {
     padding: 10px 30px;
+    margin-bottom: 30px;
 }
- .who-we-ade2 .text-who > a {
-     margin-bottom: 30px;
- }
-
- @media (min-width : 768px) {
-     .text-who .img-who-we-ade2 {
-         height: 100%;
-     }
-     .text-who .text-who {
-         margin-top: 5px;
-         padding: 0;
-     }
- }
+.who-we-ade2 a {
+    margin-bottom: 25px;
+}
