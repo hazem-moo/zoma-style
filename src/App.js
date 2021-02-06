@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { useEffect } from 'react'
 import './App.css';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 
@@ -19,10 +19,10 @@ import Contact from './Components/Contact us/Contact'
 import Footer from './Components/Footer/Footer';
 import MyNavbar from './Components/Navbar/Navbar';
 
-// import ScrollTop from './Components/ScrollTop/ScrollTop'
 
 function App() {  
 
+  
   return (
     <BrowserRouter className="App" basename="/zoma-style" >
     <Navbar />  

@@ -8,7 +8,6 @@
 .slide .carousel-item .logo-slide {
     background-size: cover;
     max-height: 750px;
-    width: 95% !important;
 }
 .carousel-control-next, .carousel-control-prev {
     opacity: 1;
@@ -24,11 +23,12 @@
 .who-we-ade2 {
     margin-top: 100px;
     margin-bottom: 100px;
+    
 }
 
 .who-we-ade2 .col-lg-6 .img-who-we-ade2 {
-    animation: opacity-img 11s ease-in-out  5 alternate !important;
-    transition: all 5s ease;
+    animation: opacity-img 11s ease-in-out  infinite alternate !important;
+    transition: all 2s ease;
     width: 100%;  
 }
 @keyframes opacity-img {
@@ -37,7 +37,10 @@
     }
     10% {
         transform: rotateX( 360deg );
-    }   
+    }
+    15% {
+        transform: rotateY( 360deg );
+    }
 }
 .who-we-ade2 .text-who {
     box-shadow: 10px 10px 20px rgb(143, 29, 29);
@@ -56,4 +59,10 @@
 }
 .who-we-ade2 a {
     margin-bottom: 25px;
+}
+@media ( max-width : 575px) {
+    .who-we-ade2  {
+        overflow-x: hidden !important
+    }
+    
 }

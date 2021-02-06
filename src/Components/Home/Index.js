@@ -69,7 +69,7 @@ const Home = (props) => {
         key={item.src}
       >
         <div className="overlay"></div>
-        <img src={ item.src } className="logo-slide w-100 " alt='' />
+        <img src={ item.src } className="logo-slide w-100 " width='100%' alt='' />
       </CarouselItem>
     );
   });
@@ -89,10 +89,10 @@ const Home = (props) => {
       {/* start who we ade2 */}
       <section className="who-we-ade2">
         <div className='row'>
-          <div className='col-lg-6' >
+          <div className='col-lg-6 overflow ' >
               <img alt='' src={ logo18 } className='img-who-we-ade2' />
-          
           </div>
+          
           <div className="col-lg-6 text-center" >
             <div className='text-who' >
               <h3 className="header-who-we-ade2"> WHO WE ARE? </h3>
