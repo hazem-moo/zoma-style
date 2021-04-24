@@ -1,0 +1,36 @@
+.logo-news {
+    position: relative;
+}
+.logo-news .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 2;
+}
+.logo-news h2, 
+.logo-news p { 
+    position: absolute;
+    top: 55%;
+    left: 40px;
+    color: #fff;
+    font-weight: 800;
+
+}
+.logo-news p {
+    top: 69%;
+
+}
+.my-news .news  {
+    margin-top: 40px ;
+    margin-bottom: 70px ;
+    overflow: hidden;
+    box-shadow: 10px 14px 15px #777;
+}
+
+.my-news .news h4,
+.my-news .news p {
+    color: #f00;
+    padding: 10px;
+    margin: 10px  0;
+}

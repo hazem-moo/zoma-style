@@ -1,0 +1,60 @@
+.my-nav, .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    padding: 0 10px !important;
+    margin: 0 !important;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 30px ;
+}
+.navbar-light .navbar-brand span:first-child { 
+    animation: color 4s ease-in-out infinite;
+    transition: all 3s ease-in-out;
+    color: #f00;
+}
+.navbar-light .navbar-brand span:last-child {
+    animation: color 4s ease-in-out infinite 1s;
+    transition: all 3s ease-in-out;
+    color: #fff;
+}
+@keyframes color {
+    from {
+        color:#ffff;
+    }
+    to {
+        color : #f00
+    }
+}
+.navbar-light .navbar-nav:last-child {
+    margin-right: 50px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color : #fff;
+    padding: 25px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar .navbar-nav .nav-item.active,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #f00 !important;
+    font-weight: 600;
+}
+.navbar ul.nnavbar-nav li:hover {
+    background-color: #999 !important;
+}
+.dropdown-menu,
+.dropdown-item {
+    padding: 0 !important;
+    margin: -1px !important;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #eee !important;
+    font-weight: 400;
+    background-color: #f00;
+}
